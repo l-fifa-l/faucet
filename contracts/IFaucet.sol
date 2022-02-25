@@ -9,7 +9,6 @@ pragma solidity >=0.4.22 <0.9.0;
 // all declared functions have to be external
 
 interface IFaucet {
-    function addFunds() external payable;
-
-    function withdraw(uint256 withdrawAmount) external;
+  function addFunds() external payable;
+  function withdraw(uint withdrawAmount) external;
 }
